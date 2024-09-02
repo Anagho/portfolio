@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body
+    class="bg-[hsl(0,_0%,_8%)] pb-[2rem] text-[1.125rem] text-[hsl(0,_0%,_100%)]"
+  >
+    <!-- Header  starts here-->
+    <header class="relative z-1 mx-auto max-w-[1100px] py-4 lg:py-10 px-5">
+      <!-- Navbar starts here -->
+      <nav class="flex flex-col items-center gap-6 lg:flex-row">
+        <!-- Brand name starts here-->
+        <h2
+          class="text-[hsl(0,_0%,_100%)] font-bold hover:text-[hsl(153,_71%,_59%)] text-2xl cursor-pointer"
+        >
+          Okiroro Anagho
+        </h2>
+        <!-- Brand name ends here -->
+
+        <!-- Menu -->
+        <ul
+          class="flex mx-auto py-2 text-[hsl(0,_0%,_100%)] text-opacity-80 gap-x-4 md:gap-x-8"
+        >
+          <li>
+            <a
+              class="transition-in-out bg-[hsl(22,44%,29%)] p-2 rounded hover:text-opacity-100 hover:text-[hsl(153,_71%,_59%)]"
+              href="#"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              class="transition-in-out hover:bg-[hsl(22,44%,29%)] p-2 rounded hover:text-[hsl(153,_71%,_59%)] hover:text-opacity-100"
+              href="#projects"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              class="transition-in-out hover:bg-[hsl(22,44%,29%)] p-2 rounded hover:text-[hsl(153,_71%,_59%)] hover:text-opacity-100"
+              href="#contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <!-- Social Media links -->
+        <div class="flex gap-x-8">
+          <a href="#" class="hover:text-[hsl(153,_71%,_59%)]" title="Github">
+            <i class="fab fa-github text-2xl"></i>
+          </a>
+          <a href="#" class="hover:text-[hsl(153,_71%,_59%)]" title="LinkedIn">
+            <i class="fab fa-linkedin text-2xl"></i>
+          </a>
+          <a href="#" class="hover:text-[hsl(153,_71%,_59%)]" title="Slack">
+            <i class="fab fa-slack text-2xl"></i>
+          </a>
+          <a href="#" class="hover:text-[hsl(153,_71%,_59%)]" title="Twitter">
+            <i class="fab fa-twitter text-2xl"></i>
+          </a>
+        </div>
+      </nav>
+      <!-- Navbar ends here -->
+    </header>
+    <!-- Header  ends here-->
+
+    <!-- Main section starts here -->
+    <main id="main">
+      <!-- hero section starts here -->
+      <section class="max-w-[1100px] mx-auto">
+        <!-- hero wrapper -->
+        <div class="relative border-b border-b-[hsl(0,_0%,_85%)] pb-20">
+          <!-- hero content -->
+          <article
+            class="flex flex-col items-center lg:flex-row lg:justify-between gap-8"
+          >
+            <!-- hero image -->
+            <picture class="lg:order-2">
+              <img
+                class="relative h-auto w-[250px] lg:w-[auto]"
+                src="./images/profile.png"
+                alt="picture of okiroro"
+                width="530"
+                height="383"
+              />
+            </picture>
+
+            <!-- background images: Hero__rings -->
+            <img
+              class="absolute right-[80%] top-[5px] lg:right-[75%] lg:top-[40px] -z-10 h-auto hero__rings"
+              src="./images/pattern-rings.svg"
+              alt=""
+              width="530"
+              height="129"
+            />
+            <!-- background images: Hero__circle -->
+            <img
+              class="absolute bottom-[50%] right-[-15%] lg:bottom-28 lg:right-[35%] translate-x-[cal(100vw-64px-16px)] -z-5"
+              src="./images/pattern-circle.svg"
+              alt=""
+              width="129"
+              height="129"
+            />
+            <!-- background images -->
+
+            <!-- hero text -->
+            <div class="relative flex flex-col items-base px-5 hero--text">
+              <h1
+                class="hero--text text-[2rem] text-center lg:text-left leading-[1.2] tracking-[-0.02em] font-bold lg:text-[3.2rem]"
+              >
+                Nice to meet you! ✌️<br />I'm <span>Okiroro Anagho</span>.
+              </h1>
+              <p
+                class="max-w-[500px] lg:max-w-[400px] my-6 lg:my-8 tracking-normal text-[1.1rem]"
+              >
+                Based in Nigeria, I'm a web developer passionate about building
+                accessible web apps that suits your needs.
+              </p>
+
+              <!-- hero contact -->
+              <a
+                href="#contact"
+                class="underline w-fit self-center lg:self-start transition-all hover:text-[hsl(153,_71%,_59%)]"
+                >Contact me</a
+              >
+            </div>
+            <!-- hero text -->
+          </article>
+          <!-- hero content -->
+        </div>
+        <!-- hero wrapper -->
+      </section>
+      <!-- hero section ends here -->
+
+      <!-- skill section starts here -->
+      <section
+        class="relative max-w-[1100px] mx-auto my-10 border-b border-b-[hsl(0,_0%,_85%)] pb-16 lg:border-none"
+      >
+        <!-- skills wrapper -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 lg:gap-16 py-2 lg:py-10"
+        >
+          <!-- Skill Item -->
+          <article class="text-center lg:text-left">
+            <h3
+              class="text-[2.5rem] lg:text-[3rem] my-font-size leading-[1.17] my-[2px] font-bold"
+            >
+              HTML
+            </h3>
+            <p class="text-[hsl(0,_0%,_85%)] text-[1.1rem]">
+              2 Years Experience
+            </p>
+          </article>
+          <!-- Skill Item -->
+
+          <!-- Skill Item -->
+          <article class="text-center lg:text-left">
+            <h3
+              class="text-[2.5rem] lg:text-[3rem] my-font-size leading-[1.17] my-[2px] font-bold"
+            >
+              CSS
+            </h3>
+            <p class="text-[hsl(0,_0%,_85%)] text-[1.1rem]">
+              2 Years Experience
+            </p>
+          </article>
+          <!-- Skill Item -->
+
+          <!-- Skill Item -->
+          <article class="text-center lg:text-left">
+            <h3
+              class="text-[2.5rem] lg:text-[3rem] my-font-size leading-[1.17] my-[2px] font-bold"
+            >
+              JavaScript
+            </h3>
+            <p class="text-[hsl(0,_0%,_85%)] text-[1.1rem]">
+              2 Years Experience
+            </p>
+          </article>
+          <!-- Skill Item -->
+          <!-- Skill Item -->
+          <article class="text-center lg:text-left">
+            <h3
+              class="text-[2.5rem] lg:text-[3rem] my-font-size leading-[1.17] my-[2px] font-bold"
+            >
+              React.js
+            </h3>
+            <p class="text-[hsl(0,_0%,_85%)] text-[1.1rem]">
+              2 Years Experience
+            </p>
+          </article>
+          <!-- Skill Item -->
+          <!-- Skill Item -->
+          <article class="text-center lg:text-left">
+            <h3
+              class="text-[2.5rem] lg:text-[3rem] my-font-size leading-[1.17] my-[2px] font-bold"
+            >
+              Node.js
+            </h3>
+            <p class="text-[hsl(0,_0%,_85%)] text-[1.1rem]">
+              2 Years Experience
+            </p>
+          </article>
+          <!-- Skill Item -->
+          <!-- Skill Item -->
+          <article class="text-center lg:text-left">
+            <h3
+              class="text-[2.5rem] my-font-size leading-[1.17] my-[2px] font-bold"
+            >
+              Python
+            </h3>
+            <p class="text-[hsl(0,_0%,_85%)] text-[1.1rem]">
+              2 Years Experience
+            </p>
+          </article>
+          <!-- Skill Item -->
+        </div>
+
+        <!-- skill ring image -->
+        <img
+          class="absolute left-10 lg:bottom-0 lg:left-[50%] translate-x-[50%]"
+          src="/images/pattern-rings.svg"
+          alt=""
+          width="530"
+          height="129"
+        />
+
+        <!-- skills wrapper -->
+      </section>
+      <!-- skill section ends here -->
+
+      <!-- Projects section starts here -->
+      <section id="projects" class="max-w-[1100px] mx-auto pb-28">
+        <!-- Project headline -->
+        <div
+          class="flex flex-col gap-8 py-10 lg:flex-row justify-between lg:items-center"
+        >
+          <h2
+            class="text-[3rem] text-center lg:text-[5rem] tracking-[-0.028em] leading-[1.1] line-clamp-[2.5rem,_0.7rem+7.68vw,_5.5rem] font-bold"
+          >
+            Projects
+          </h2>
+          <a
+            href="#contact"
+            class="underline inline-block w-fit self-center lg:self-start transition-all hover:text-[hsl(153,_71%,_59%)]"
+            >Contact me</a
+          >
+        </div>
+        <!-- Project headline -->
+
+        <!-- Project wrapper -->
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-20 justify-center text-center px-5 lg:text-left"
+        >
+          <!-- Project card -->
+          <article class="project--card sm:text-left">
+            <img
+              src="./images/manage-landing-page.jpg"
+              alt="screenchot of manage landing page"
+              width-="343"
+              height="253"
+            />
+            <h3 class="text-2xl leading-[1.3] font-[700] uppercase mt-5">
+              Manage Landing Page
+            </h3>
+            <p
+              class="flex justify-center gap-3 uppercase my-2 sm:justify-start"
+            >
+              <span>HTML</span> <span>CSS</span>
+            </p>
+            <div
+              class="flex flex-col sm:flex-row sm:gap-8 items-center gap-5 mt-6"
+            >
+              <a class="underline" href="#">View Project</a>
+              <a class="underline" href="#">View Code</a>
+            </div>
+          </article>
+          <!-- Project card -->
+
+          <!-- Project card -->
+          <article class="project--card sm:text-left">
+            <img
+              src="./images/flyo-landing-page.jpg"
+              alt="screenchot of huddle landing page"
+              width-="343"
+              height="253"
+            />
+            <h3 class="text-2xl leading-[1.3] font-[700] uppercase mt-5">
+              Flyo Landing Page
+            </h3>
+            <p
+              class="flex justify-center gap-3 uppercase my-2 sm:justify-start"
+            >
+              <span>HTML</span> <span>CSS</span>
+            </p>
+            <div
+              class="flex flex-col sm:flex-row sm:gap-8 items-center gap-5 mt-6"
+            >
+              <a class="underline" href="#">View Project</a>
+              <a class="underline" href="#">View Code</a>
+            </div>
+          </article>
+          <!-- Project card -->
+
+          <!-- Project card -->
+          <article class="project--card sm:text-left">
+            <img
+              src="./images/store-landing-page.png"
+              alt="screenchot of flyo landing page"
+              width-="343"
+              height="253"
+            />
+            <h3 class="text-2xl leading-[1.3] font-[700] uppercase mt-5">
+              Store Landing Page
+            </h3>
+            <p
+              class="flex justify-center gap-3 uppercase my-2 sm:justify-start"
+            >
+              <span>HTML</span> <span>CSS</span>
+            </p>
+            <div
+              class="flex flex-col sm:flex-row sm:gap-8 items-center gap-5 mt-6"
+            >
+              <a class="underline" href="#">View Project</a>
+              <a class="underline" hre="#">View Code</a>
+            </div>
+          </article>
+          <!-- Project card -->
+
+          <!-- Project card -->
+          <article class="project--card sm:text-left">
+            <img
+              class="relative"
+              src="./images/travel-agency-page.png"
+              alt="screenchot of manage landing page"
+              width-="343"
+              height="253"
+            />
+            <h3 class="text-2xl leading-[1.3] font-[700] uppercase mt-5">
+              Travel Agency Page
+            </h3>
+            <p
+              class="flex justify-center gap-3 uppercase my-2 sm:justify-start"
+            >
+              <span>HTML</span> <span>CSS</span>
+            </p>
+            <div
+              class="flex flex-col sm:flex-row sm:gap-8 items-center gap-5 mt-6"
+            >
+              <a class="underline" href="#">View Project</a>
+              <a class="underline" href="#">View Code</a>
+            </div>
+          </article>
+          <!-- Project card -->
+        </div>
+        <!-- Project wrapper -->
+
+        <!-- view more button -->
+         <div class="mt-24 flex items-center justify-center">
+            <a href="" class="underline"><span>View more</span>&nbsp;<i class="fas fa-arrow-right"></i></a>
+         </div>
+        <!-- view more button -->
+      </section>
+      <!-- Projects section ends here -->
+
+      <!-- Contact section starts here -->
+      <section id="contact" class="bg-[hsl(0,_0%,_14%);] relative">
+        <!-- wrapper -->
+        <div
+          class="grid grid-cols-1 gap-8 px-8 lg:px-8 md:grid-cols-2 md:gap-52 max-w-[1100px] mx-auto py-20 border-b border-b-[hsl(0,_0%,_85%)] w-fit"
+        >
+          <!-- contact text -->
+          <article class="text-center sm:text-left sm:max-w-[450px]">
+            <h2
+              class="my-8 text-[3rem] sm:text-[5.5rem] font-bold line-clamp-[2.5rem,_0.7rem+7.68vw,_5.5rem], -tracking-[0.028em], leading-[1.1]"
+            >
+              Contact
+            </h2>
+            <p class="text-[hsl(0,_0%,_85%)] my-10">
+              I would love to hear about your project and how I could help.
+              Please fill in the form, and I'll get back to you as soon as
+              possible.
+            </p>
+          </article>
+          <!-- contact text -->
+
+          <!-- Contact form -->
+          <form>
+            <!-- form control -->
+            <div class="relative my-4">
+              <label for="name"></label>
+              <input
+                class="w-full py-4 px-6 border-b-[1px] border-b-[hsl(0,_0%,_100%)] bg-transparent text-[1rem] leading-[1.625] text-[hsl(0,_0%,_100%)] before:placeholder:text-[hsl(0,_0%,_100%)] before:placeholder:opacity-[0.5] uppercase outline-none focus:border-[2px] focus:border-[hsl(153,_71%,_59%)]"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name"
+                required
+              />
+            </div>
+
+            <!-- form control -->
+            <div>
+              <label for="email"></label>
+              <input
+                class="w-full py-4 px-6 border-b-[1px] border-b-[hsl(0,_0%,_100%)] bg-transparent text-[1rem] leading-[1.625] text-[hsl(0,_0%,_100%)] before:placeholder:text-[hsl(0,_0%,_100%)] before:placeholder:opacity-[0.5] uppercase outline-none focus:border-[2px] focus:border-[hsl(153,_71%,_59%)]"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <!-- form control -->
+
+            <!-- form control -->
+            <div>
+              <label for="message"></label>
+              <textarea
+                class="w-full mt-4 py-2 px-6 border-b-[1px] border-b-[hsl(0,_0%,_100%)] bg-transparent text-[1rem] leading-[1.625] text-[hsl(0,_0%,_100%)] before:placeholder:text-[hsl(0,_0%,_100%)] before:placeholder:opacity-[0.5] uppercase outline-none resize-none h-40 focus:border-[2px] focus:border-[hsl(153,_71%,_59%)]"
+                type="message"
+                id="message"
+                name="message"
+                placeholder="message"
+                required
+              ></textarea>
+            </div>
+            <!-- form control -->
+
+            <!-- form control -->
+            <div class="flex justify-end mt-12">
+              <button
+                class="bg-transparent border-none underline"
+                type="submit"
+              >
+                Send Message
+              </button>
+            </div>
+            <!-- form control -->
+          </form>
+          <!-- Contact form -->
+        </div>
+        <!-- wrapper -->
+
+        <!-- Background image -->
+        <img
+          class="absolute left-10 md:left-48 bottom-[10%] -translate-x-[75%]"
+          src="/images/pattern-rings.svg"
+          alt=""
+          width="530"
+          height="129"
+        />
+      </section>
+      <!-- Contact section ends here -->
+    </main>
+    <!-- Main section ends here -->
+
+    <!-- Footer  -->
+    <footer id="footer" class="relative bg-[hsl(0,_0%,_14%);]">
+      <!-- footer wrapper -->
+      <nav
+        class="max-w-[1100px] mx-auto flex flex-col justify-center items-center md:justify-between gap-10 md:flex-row py-16 px-6 lg:px-8"
+      >
+        <!-- Brand name starts here-->
+        <h2
+          class="text-[hsl(0,_0%,_100%)] font-bold hover:text-[hsl(153,_71%,_59%)] text-2xl cursor-pointer"
+        >
+          <a href="#"> Okiroro Anagho</a>
+        </h2>
+        <!-- Brand name ends here -->
+
+        <div class="flex gap-x-8">
+          <a href="#" class="hover:text-[hsl(153,_71%,_59%)]" title="Github">
+            <i class="fab fa-github text-[2rem]"></i>
+          </a>
+          <a href="#" class="hover:text-[hsl(153,_71%,_59%)]" title="LinkedIn">
+            <i class="fab fa-linkedin text-[2rem]"></i>
+          </a>
+          <a href="#" class="hover:text-[hsl(153,_71%,_59%)]" title="Slack">
+            <i class="fab fa-slack text-[2rem]"></i>
+          </a>
+          <a href="#" class="hover:text-[hsl(153,_71%,_59%)]" title="Twitter">
+            <i class="fab fa-twitter text-[2rem]"></i>
+          </a>
+        </div>
+        <!-- Social Links -->
+      </nav>
+      <!-- footer wrapper -->
+      <span class="absolute right-6 bottom-10">
+        <a
+          href="#"
+          class="grid place-items-center rounded-full h-[45px] w-[45px] border border-[hsl(153,_71%,_59%)] hover:text-[hsl(153,_71%,_59%)]"
+          title="Go to top"
+        >
+          <i class="fas fa-arrow-up text-[1.5rem] text-[hsl(153,_71%,_59%)"></i>
+        </a>
+      </span>
+    </footer>
+    <!-- Footer  -->
+
+
+    <!-- taildwindcss cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/e7ccce1372.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
